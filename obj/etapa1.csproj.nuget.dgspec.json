@@ -1,28 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/etapa1.csproj": {}
+    "C:\\Users\\paul_\\Documents\\2019\\cursos\\netcore\\escuela_console\\etapa1.csproj": {}
   },
   "projects": {
-    "/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/etapa1.csproj": {
+    "C:\\Users\\paul_\\Documents\\2019\\cursos\\netcore\\escuela_console\\etapa1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/etapa1.csproj",
+        "projectUniqueName": "C:\\Users\\paul_\\Documents\\2019\\cursos\\netcore\\escuela_console\\etapa1.csproj",
         "projectName": "etapa1",
-        "projectPath": "/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/etapa1.csproj",
-        "packagesPath": "/home/paul/.nuget/packages/",
-        "outputPath": "/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/",
+        "projectPath": "C:\\Users\\paul_\\Documents\\2019\\cursos\\netcore\\escuela_console\\etapa1.csproj",
+        "packagesPath": "C:\\Users\\paul_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paul_\\Documents\\2019\\cursos\\netcore\\escuela_console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/paul/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\paul_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

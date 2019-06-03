@@ -20,9 +20,9 @@ namespace CoreEscuela
             Escuela = new Escuela("Jose Enrique Rodo", 1980, TiposEscuela.Primaria, ciudad: "Quito");
             InicializarCursos();
             CargarAsignaturas();
-          
-           
-           // cargarEvaluaciones();
+
+
+            // cargarEvaluaciones();
         }
 
         private List<Alumno> GenerarAlumnosRandom(int cantidad)
@@ -32,12 +32,35 @@ namespace CoreEscuela
             var listarAlumnos = from n1 in nombre1
                                 from a1 in apellido
                                 select new Alumno { Nombre = $"{n1} {a1}" };
-            return listarAlumnos.OrderBy((al)=> al.UniqueId ).Take(cantidad).ToList();
+            return listarAlumnos.OrderBy((al) => al.UniqueId).Take(cantidad).ToList();
         }
 
         private void cargarEvaluaciones()
         {
-            throw new NotImplementedException();
+            foreach (var curso in Escuela.Cursos)
+            {
+                foreach (var asignatura in curso.Asignaturas)
+                {
+                    foreach (var alumno in curso.Alumnos)
+                    {
+                        var rnd = new Random(System.Environment.TickCount);
+                        for (int i = 0; i < 5; i++)
+                        {
+                            var eva = new Evaluacion
+                            {
+                                Asignatura = asignatura,
+                                Nombre = $"{asignatura.Nombre} Ev#{i + i}",
+                                Nota = (float)(10 * rnd.NextDouble()),
+                                Alumno = alumno
+                            };
+
+                            alumno.Evaluaciones.Add(eva);
+                        }
+                    }
+                }
+
+            }
+
         }
 
         private void CargarAsignaturas()
@@ -51,7 +74,7 @@ namespace CoreEscuela
                         new Asignatura{ Nombre= "Castellano"},
                         new Asignatura{ Nombre= "Educacion Fisica"},
                 };
-                curso.Asignaturas=listaAsignaturas;
+                curso.Asignaturas = listaAsignaturas;
 
             }
         }
@@ -66,14 +89,14 @@ namespace CoreEscuela
                 new Curso(){ Nombre= "301", Jornada= TiposJornada.Mañana}
 
             };
-                Random rnd= new Random();
-                foreach (var curso in Escuela.Cursos)
-                {
-                     int cantindadRandom = rnd.Next(5,20);
-                     curso.Alumnos= GenerarAlumnosRandom(cantindadRandom);
-                }
-                
-            
+            Random rnd = new Random();
+            foreach (var curso in Escuela.Cursos)
+            {
+                int cantindadRandom = rnd.Next(5, 20);
+                curso.Alumnos = GenerarAlumnosRandom(cantindadRandom);
+            }
+
+
         }
     }
 }

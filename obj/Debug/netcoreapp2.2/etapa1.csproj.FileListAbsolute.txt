@@ -9,3 +9,14 @@
 /home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/bin/Debug/netcoreapp2.2/etapa1.pdb
 /home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/Debug/netcoreapp2.2/etapa1.dll
 /home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/Debug/netcoreapp2.2/etapa1.pdb
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\bin\Debug\netcoreapp2.2\etapa1.deps.json
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\bin\Debug\netcoreapp2.2\etapa1.runtimeconfig.json
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\bin\Debug\netcoreapp2.2\etapa1.runtimeconfig.dev.json
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\bin\Debug\netcoreapp2.2\etapa1.dll
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\bin\Debug\netcoreapp2.2\etapa1.pdb
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\obj\Debug\netcoreapp2.2\etapa1.csprojAssemblyReference.cache
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\obj\Debug\netcoreapp2.2\etapa1.csproj.CoreCompileInputs.cache
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\obj\Debug\netcoreapp2.2\etapa1.AssemblyInfoInputs.cache
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\obj\Debug\netcoreapp2.2\etapa1.AssemblyInfo.cs
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\obj\Debug\netcoreapp2.2\etapa1.dll
+C:\Users\paul_\Documents\2019\cursos\netcore\escuela_console\obj\Debug\netcoreapp2.2\etapa1.pdb
