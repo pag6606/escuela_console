@@ -1,0 +1,11 @@
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/Debug/netcoreapp2.2/etapa1.csprojAssemblyReference.cache
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/Debug/netcoreapp2.2/etapa1.csproj.CoreCompileInputs.cache
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/Debug/netcoreapp2.2/etapa1.AssemblyInfoInputs.cache
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/Debug/netcoreapp2.2/etapa1.AssemblyInfo.cs
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/bin/Debug/netcoreapp2.2/etapa1.deps.json
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/bin/Debug/netcoreapp2.2/etapa1.runtimeconfig.json
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/bin/Debug/netcoreapp2.2/etapa1.runtimeconfig.dev.json
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/bin/Debug/netcoreapp2.2/etapa1.dll
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/bin/Debug/netcoreapp2.2/etapa1.pdb
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/Debug/netcoreapp2.2/etapa1.dll
+/home/paul/Documentos/2019/cursos/netcore/hello-world/etapa1/obj/Debug/netcoreapp2.2/etapa1.pdb
