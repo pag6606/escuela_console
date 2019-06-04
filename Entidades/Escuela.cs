@@ -2,14 +2,9 @@ using System.Collections.Generic;
 
 namespace CoreEscuela.Entidades
 {
-    public class Escuela
+    public class Escuela:ObjetoEscuelaBase
     {
-        string nombre;
-        public string Nombre
-        {
-            get { return nombre; }
-            set { nombre = value.ToUpper(); }
-        }
+        
 
         public int AnioCreacion{get; set;}
 

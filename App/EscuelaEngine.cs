@@ -5,7 +5,7 @@ using CoreEscuela.Entidades;
 
 namespace CoreEscuela
 {
-    public class EscuelaEngine
+    public sealed class  EscuelaEngine
     {
         public Escuela Escuela { get; set; }
 
@@ -22,7 +22,7 @@ namespace CoreEscuela
             CargarAsignaturas();
 
 
-            // cargarEvaluaciones();
+            cargarEvaluaciones();
         }
 
         private List<Alumno> GenerarAlumnosRandom(int cantidad)
@@ -56,6 +56,7 @@ namespace CoreEscuela
 
                             alumno.Evaluaciones.Add(eva);
                         }
+                       
                     }
                 }
 
